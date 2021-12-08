@@ -48,8 +48,6 @@ PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
 PRODUCT_PACKAGES += \
     gsi_skip_mount.cfg \
     init.gsi.rc \
-    init.vndk-nodef.rc \
-
 
 # Overlay the GSI specific SystemUI setting
 ifneq ($(PRODUCT_IS_AUTOMOTIVE),true)
